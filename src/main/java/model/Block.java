@@ -4,10 +4,10 @@ import java.time.LocalDateTime;
 
 public class Block {
 
-    Long id;
-    String blockedReason;
-    String unblockedReason;
-    LocalDateTime blockedAt;
-    LocalDateTime unblockedAt;
+    private Long id;
+    private String blockedReason;
+    private String unblockedReason;
+    private LocalDateTime blockedAt;
+    private LocalDateTime unblockedAt;
 
 }

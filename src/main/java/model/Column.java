@@ -1,11 +1,15 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Column {
 
-    Long id;
-    String name;
-    Long boardId;
-    ColumnType type;
-    int order;
+    private Long id;
+    private String name;
+    private Board board;
+    private ColumnType type;
+    private Integer order;
+    private List<Card> cards = new ArrayList<>();
 
 }
