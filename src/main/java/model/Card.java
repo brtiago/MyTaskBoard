@@ -1,8 +1,9 @@
 package model;
 
-import java.awt.*;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Card {
 
@@ -13,7 +14,7 @@ public class Card {
     private boolean blocked;
     private String blockedReason;
 
-    private Color currentColumn;
+    private Column currentColumn;
 
     private List<CardMovementHistory> movementHistory = new ArrayList<>();
 
